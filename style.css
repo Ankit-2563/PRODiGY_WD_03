@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #c5a8ff;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  text-align: center;
+  border-radius: 10px;
+  width: 400px;
+  background-color: #222832;
+  padding: 20px;
+}
+.game--title {
+  padding-top: 20px;
+  color: white;
+}
+.game--container {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(3, auto);
+  width: 150px;
+  margin: 120px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.cell {
+  font-family: "Roboto", sans-serif;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 50px;
+  font-size: 28px;
+  color: #c5a8ff;
+}
+button {
+  margin-bottom: 20px;
+  padding: 8px;
+  font-size: 28px;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #8c52ff;
+  cursor: pointer;
+}
+button:hover {
+  transition: 0.25s;
+  background-color: #c1a2fe;
+}
+.win {
+  background-color: #98fb98;
+  color: black;
+}
